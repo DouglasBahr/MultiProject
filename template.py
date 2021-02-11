@@ -3,7 +3,7 @@ Title: Template
 
 Date: 4/1/2020
 
-Author: Sinthirll
+Author: Sinthrill
 
 Description: This is a description for how a file might
              be best formated in terms of standard practices. 
