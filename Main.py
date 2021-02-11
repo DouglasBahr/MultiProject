@@ -34,3 +34,4 @@ class Rocket():
            
 if __name__ == '__main__':
     Rocket = Rocket()
+    print("Main Ran Perfectly")
