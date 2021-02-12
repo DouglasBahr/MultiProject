@@ -13,20 +13,31 @@
 # """
 
 # #Python import#e.g. from time import sleep
-import time
+from time import sleep
 
 #Custom imports  #e.g. from file import class as name
 
 #Constants  # e.g. GENERIC_CONSTANT = "Status_Test_String"
-Lyrics = ["Carl and Sinthrill,", "Sittin' in a tree.", "K", "I", "S", "S", "I", "N", "G.", "First comes Love,","Then comes Marriage,", "Then comes some very colourful verbiage."]
+LYRICS =\
+"Carl and Sinthrill,\
+Sittin' in a tree,\
+K,\
+I,\
+S,\
+S,\
+I,\
+N,\
+G,\
+First comes Love,\
+Then comes Marriage,\
+Then comes some very colourful verbiage."
+
+lyrics_list = LYRICS.split(',')
 
 #Code e.g. class Name():
-for s in Lyrics:
-    print(s) ; time.sleep(0.6)
-
-
-# In[ ]:
-
+for line in lyrics_list:
+    print(line)
+    sleep(0.6)
 
 
 
